@@ -1,0 +1,496 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorBackground"
+    android:orientation="vertical"
+    tools:context=".ui.activity.XuLyGiayMoi.SoanBaoCaoActivity">
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/toolbarThongTinVanBan"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="?attr/colorPrimary"
+        android:fitsSystemWindows="true">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:id="@+id/imvBack"
+                android:layout_width="25dp"
+                android:layout_height="32dp"
+                android:layout_alignParentLeft="true"
+                android:layout_centerVertical="true"
+                android:layout_marginRight="15dp"
+                android:paddingRight="@dimen/_5sdp"
+                android:src="@drawable/path4334" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="25dp"
+                android:layout_marginRight="40dp"
+                android:gravity="center"
+                android:text="SOẠN BÁO CÁO"
+                android:textColor="#ffffff"
+                android:textSize="20dp"
+                android:textStyle="bold" />
+
+            <ImageView
+                android:id="@+id/imvNotification"
+                android:layout_width="25dp"
+                android:layout_height="32dp"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:layout_marginRight="15dp" />
+        </RelativeLayout>
+    </android.support.v7.widget.Toolbar>
+
+<!--    <ScrollView-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="match_parent">-->
+
+<!--        <LinearLayout-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="match_parent"-->
+<!--            android:orientation="vertical">-->
+
+
+<!--            <TextView-->
+<!--                android:layout_width="wrap_content"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:layout_marginLeft="15dp"-->
+<!--                android:layout_marginTop="15dp"-->
+<!--                android:layout_marginBottom="5dp"-->
+<!--                android:text="KẾT LUẬN CUỘC HỌP"-->
+<!--                android:textColor="@color/colorMain"-->
+<!--                android:textStyle="bold" />-->
+
+<!--            <HorizontalScrollView-->
+<!--                android:layout_width="match_parent"-->
+<!--                android:layout_height="wrap_content">-->
+
+<!--                <LinearLayout-->
+<!--                    android:layout_width="match_parent"-->
+<!--                    android:layout_height="wrap_content"-->
+<!--                    android:layout_margin="10dp"-->
+<!--                    android:orientation="horizontal">-->
+
+<!--                    <RelativeLayout-->
+<!--                        android:layout_width="wrap_content"-->
+<!--                        android:layout_height="wrap_content"-->
+<!--                        android:layout_marginLeft="5dp">-->
+
+<!--                        <TextView-->
+<!--                            android:layout_width="@dimen/_110sdp"-->
+<!--                            android:layout_height="wrap_content"-->
+<!--                            android:background="@drawable/round4"-->
+<!--                            android:hint="Normal text"-->
+<!--                            android:maxLines="1"-->
+<!--                            android:paddingVertical="10dp"-->
+<!--                            android:paddingLeft="30dp"-->
+<!--                            android:paddingRight="20dp"-->
+<!--                            android:scrollbarAlwaysDrawHorizontalTrack="true" />-->
+
+<!--                        <ImageView-->
+<!--                            android:layout_width="20dp"-->
+<!--                            android:layout_height="22dp"-->
+<!--                            android:layout_centerVertical="true"-->
+<!--                            android:layout_marginLeft="7dp"-->
+<!--                            android:src="@drawable/a3x" />-->
+
+<!--                        <ImageView-->
+<!--                            android:layout_width="8dp"-->
+<!--                            android:layout_height="7dp"-->
+<!--                            android:layout_marginLeft="@dimen/_98sdp"-->
+<!--                            android:layout_marginTop="17.5dp"-->
+<!--                            android:src="@drawable/asolygon" />-->
+<!--                    </RelativeLayout>-->
+
+<!--                    <ImageView-->
+<!--                        android:layout_width="39dp"-->
+<!--                        android:layout_height="39dp"-->
+<!--                        android:layout_marginLeft="10dp"-->
+<!--                        android:src="@drawable/bdam" />-->
+
+<!--                    <ImageView-->
+<!--                        android:layout_width="39dp"-->
+<!--                        android:layout_height="39dp"-->
+<!--                        android:layout_marginLeft="10dp"-->
+<!--                        android:src="@drawable/inghieng" />-->
+
+<!--                    <ImageView-->
+<!--                        android:layout_width="39dp"-->
+<!--                        android:layout_height="39dp"-->
+<!--                        android:layout_marginLeft="10dp"-->
+<!--                        android:src="@drawable/ugach" />-->
+
+<!--                    <ImageView-->
+<!--                        android:layout_width="39dp"-->
+<!--                        android:layout_height="39dp"-->
+<!--                        android:layout_marginLeft="10dp"-->
+<!--                        android:src="@drawable/snho" />-->
+
+<!--                    <ImageView-->
+<!--                        android:layout_width="39dp"-->
+<!--                        android:layout_height="39dp"-->
+<!--                        android:layout_marginLeft="10dp"-->
+<!--                        android:src="@drawable/ngoac" />-->
+
+<!--                    <ImageView-->
+<!--                        android:layout_width="39dp"-->
+<!--                        android:layout_height="39dp"-->
+<!--                        android:layout_marginLeft="10dp"-->
+<!--                        android:src="@drawable/hinh" />-->
+
+<!--                    <ImageView-->
+<!--                        android:layout_width="39dp"-->
+<!--                        android:layout_height="39dp"-->
+<!--                        android:layout_marginLeft="10dp"-->
+<!--                        android:layout_marginRight="15dp"-->
+<!--                        android:src="@drawable/chiase" />-->
+<!--                </LinearLayout>-->
+<!--            </HorizontalScrollView>-->
+
+<!--            <LinearLayout-->
+<!--                android:layout_width="wrap_content"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:layout_marginHorizontal="15dp"-->
+<!--                android:layout_marginVertical="5dp"-->
+<!--                android:background="@drawable/round4"-->
+<!--                android:orientation="horizontal"-->
+<!--                android:padding="10dp">-->
+
+<!--                <ImageView-->
+<!--                    android:layout_width="19dp"-->
+<!--                    android:layout_height="19dp"-->
+<!--                    android:layout_gravity="center"-->
+<!--                    android:src="@drawable/list3x" />-->
+
+<!--                <ImageView-->
+<!--                    android:layout_width="19dp"-->
+<!--                    android:layout_height="19dp"-->
+<!--                    android:layout_gravity="center"-->
+<!--                    android:layout_marginHorizontal="15dp"-->
+<!--                    android:src="@drawable/outlinelist3x" />-->
+
+<!--                <ImageView-->
+<!--                    android:layout_width="19dp"-->
+<!--                    android:layout_height="19dp"-->
+<!--                    android:layout_gravity="center"-->
+<!--                    android:src="@drawable/outdent3x" />-->
+
+<!--                <ImageView-->
+<!--                    android:layout_width="19dp"-->
+<!--                    android:layout_height="19dp"-->
+<!--                    android:layout_gravity="center"-->
+<!--                    android:layout_marginLeft="15dp"-->
+<!--                    android:src="@drawable/indent3x" />-->
+<!--            </LinearLayout>-->
+
+<!--            <EditText-->
+<!--                android:layout_width="match_parent"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:layout_marginHorizontal="15dp"-->
+<!--                android:layout_marginVertical="5dp"-->
+<!--                android:background="@drawable/round3"-->
+<!--                android:hint="Nhập nội dung"-->
+<!--                android:padding="10dp" />-->
+
+<!--            <TextView-->
+<!--                android:layout_width="wrap_content"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:layout_marginLeft="15dp"-->
+<!--                android:layout_marginTop="15dp"-->
+<!--                android:layout_marginBottom="5dp"-->
+<!--                android:text="ĐỀ XUẤT CỦA PHÒNG"-->
+<!--                android:textColor="@color/colorMain"-->
+<!--                android:textStyle="bold" />-->
+
+<!--            <HorizontalScrollView-->
+<!--                android:layout_width="match_parent"-->
+<!--                android:layout_height="wrap_content">-->
+
+<!--                <LinearLayout-->
+<!--                    android:layout_width="match_parent"-->
+<!--                    android:layout_height="wrap_content"-->
+<!--                    android:layout_margin="10dp"-->
+<!--                    android:orientation="horizontal">-->
+
+<!--                    <RelativeLayout-->
+<!--                        android:layout_width="wrap_content"-->
+<!--                        android:layout_height="wrap_content"-->
+<!--                        android:layout_marginLeft="5dp">-->
+
+<!--                        <TextView-->
+<!--                            android:layout_width="@dimen/_110sdp"-->
+<!--                            android:layout_height="wrap_content"-->
+<!--                            android:background="@drawable/round4"-->
+<!--                            android:hint="Normal text"-->
+<!--                            android:maxLines="1"-->
+<!--                            android:paddingVertical="10dp"-->
+<!--                            android:paddingLeft="30dp"-->
+<!--                            android:paddingRight="20dp"-->
+<!--                            android:scrollbarAlwaysDrawHorizontalTrack="true" />-->
+
+<!--                        <ImageView-->
+<!--                            android:layout_width="20dp"-->
+<!--                            android:layout_height="22dp"-->
+<!--                            android:layout_centerVertical="true"-->
+<!--                            android:layout_marginLeft="7dp"-->
+<!--                            android:src="@drawable/a3x" />-->
+
+<!--                        <ImageView-->
+<!--                            android:layout_width="8dp"-->
+<!--                            android:layout_height="7dp"-->
+<!--                            android:layout_marginLeft="@dimen/_98sdp"-->
+<!--                            android:layout_marginTop="17.5dp"-->
+<!--                            android:src="@drawable/asolygon" />-->
+<!--                    </RelativeLayout>-->
+
+<!--                    <ImageView-->
+<!--                        android:layout_width="39dp"-->
+<!--                        android:layout_height="39dp"-->
+<!--                        android:layout_marginLeft="10dp"-->
+<!--                        android:src="@drawable/bdam" />-->
+
+<!--                    <ImageView-->
+<!--                        android:layout_width="39dp"-->
+<!--                        android:layout_height="39dp"-->
+<!--                        android:layout_marginLeft="10dp"-->
+<!--                        android:src="@drawable/inghieng" />-->
+
+<!--                    <ImageView-->
+<!--                        android:layout_width="39dp"-->
+<!--                        android:layout_height="39dp"-->
+<!--                        android:layout_marginLeft="10dp"-->
+<!--                        android:src="@drawable/ugach" />-->
+
+<!--                    <ImageView-->
+<!--                        android:layout_width="39dp"-->
+<!--                        android:layout_height="39dp"-->
+<!--                        android:layout_marginLeft="10dp"-->
+<!--                        android:src="@drawable/snho" />-->
+
+<!--                    <ImageView-->
+<!--                        android:layout_width="39dp"-->
+<!--                        android:layout_height="39dp"-->
+<!--                        android:layout_marginLeft="10dp"-->
+<!--                        android:src="@drawable/ngoac" />-->
+
+<!--                    <ImageView-->
+<!--                        android:layout_width="39dp"-->
+<!--                        android:layout_height="39dp"-->
+<!--                        android:layout_marginLeft="10dp"-->
+<!--                        android:src="@drawable/hinh" />-->
+
+<!--                    <ImageView-->
+<!--                        android:layout_width="39dp"-->
+<!--                        android:layout_height="39dp"-->
+<!--                        android:layout_marginLeft="10dp"-->
+<!--                        android:layout_marginRight="15dp"-->
+<!--                        android:src="@drawable/chiase" />-->
+<!--                </LinearLayout>-->
+<!--            </HorizontalScrollView>-->
+
+<!--            <LinearLayout-->
+<!--                android:layout_width="wrap_content"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:layout_marginHorizontal="15dp"-->
+<!--                android:layout_marginVertical="5dp"-->
+<!--                android:background="@drawable/round4"-->
+<!--                android:orientation="horizontal"-->
+<!--                android:padding="10dp">-->
+
+<!--                <ImageView-->
+<!--                    android:layout_width="19dp"-->
+<!--                    android:layout_height="19dp"-->
+<!--                    android:layout_gravity="center"-->
+<!--                    android:src="@drawable/list3x" />-->
+
+<!--                <ImageView-->
+<!--                    android:layout_width="19dp"-->
+<!--                    android:layout_height="19dp"-->
+<!--                    android:layout_gravity="center"-->
+<!--                    android:layout_marginHorizontal="15dp"-->
+<!--                    android:src="@drawable/outlinelist3x" />-->
+
+<!--                <ImageView-->
+<!--                    android:layout_width="19dp"-->
+<!--                    android:layout_height="19dp"-->
+<!--                    android:layout_gravity="center"-->
+<!--                    android:src="@drawable/outdent3x" />-->
+
+<!--                <ImageView-->
+<!--                    android:layout_width="19dp"-->
+<!--                    android:layout_height="19dp"-->
+<!--                    android:layout_gravity="center"-->
+<!--                    android:layout_marginLeft="15dp"-->
+<!--                    android:src="@drawable/indent3x" />-->
+<!--            </LinearLayout>-->
+
+<!--            <EditText-->
+<!--                android:layout_width="match_parent"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:layout_marginHorizontal="15dp"-->
+<!--                android:layout_marginVertical="5dp"-->
+<!--                android:background="@drawable/round3"-->
+<!--                android:hint="Nhập nội dung"-->
+<!--                android:padding="10dp" />-->
+
+<!--            <TextView-->
+<!--                android:layout_width="wrap_content"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:layout_marginLeft="15dp"-->
+<!--                android:layout_marginTop="10dp"-->
+<!--                android:text="File đính kèm"-->
+<!--                android:textColor="#AAAAAA" />-->
+
+<!--            <LinearLayout-->
+<!--                android:layout_width="match_parent"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:layout_marginTop="10dp"-->
+<!--                android:orientation="horizontal">-->
+
+<!--                <Button-->
+<!--                    android:paddingHorizontal="@dimen/_20sdp"-->
+<!--                    android:layout_width="wrap_content"-->
+<!--                    android:layout_height="wrap_content"-->
+<!--                    android:layout_marginLeft="15dp"-->
+<!--                    android:text="Chọn tệp" />-->
+
+<!--                <TextView-->
+<!--                    android:layout_width="match_parent"-->
+<!--                    android:layout_height="wrap_content"-->
+<!--                    android:layout_gravity="center"-->
+<!--                    android:layout_marginLeft="10dp"-->
+<!--                    android:layout_marginRight="15dp" />-->
+<!--            </LinearLayout>-->
+
+<!--            <TextView-->
+<!--                android:layout_width="wrap_content"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:layout_marginLeft="15dp"-->
+<!--                android:layout_marginTop="15dp"-->
+<!--                android:layout_marginBottom="5dp"-->
+<!--                android:text="DANH SÁCH CÁC ĐƠN VỊ CẦN NHẬN VĂN BẢN"-->
+<!--                android:textColor="@color/colorMain"-->
+<!--                android:textStyle="bold" />-->
+
+<!--            <HorizontalScrollView-->
+<!--                android:layout_width="match_parent"-->
+<!--                android:layout_height="wrap_content">-->
+
+<!--                <LinearLayout-->
+<!--                    android:layout_width="match_parent"-->
+<!--                    android:layout_height="wrap_content"-->
+<!--                    android:layout_marginHorizontal="15dp"-->
+<!--                    android:orientation="vertical">-->
+
+<!--                    <LinearLayout-->
+<!--                        android:layout_width="match_parent"-->
+<!--                        android:layout_height="wrap_content"-->
+<!--                        android:orientation="horizontal">-->
+
+<!--                        <View-->
+<!--                            android:layout_width="0.5dp"-->
+<!--                            android:layout_height="match_parent"-->
+<!--                            android:background="@color/colorBackground" />-->
+
+<!--                        <RelativeLayout-->
+<!--                            android:layout_width="wrap_content"-->
+<!--                            android:layout_height="match_parent">-->
+
+<!--                            <TextView-->
+<!--                                android:layout_width="@dimen/_60sdp"-->
+<!--                                android:layout_height="match_parent"-->
+<!--                                android:layout_alignParentTop="true"-->
+<!--                                android:layout_marginTop="0dp"-->
+<!--                                android:background="@color/colorMain"-->
+<!--                                android:paddingVertical="@dimen/_10sdp" />-->
+
+<!--                            &lt;!&ndash;<ImageView&ndash;&gt;-->
+<!--                            &lt;!&ndash;android:paddingVertical="10dp"&ndash;&gt;-->
+<!--                            &lt;!&ndash;android:layout_width="@dimen/_60sdp"&ndash;&gt;-->
+<!--                            &lt;!&ndash;android:layout_height="40dp"&ndash;&gt;-->
+<!--                            &lt;!&ndash;android:layout_centerHorizontal="true"&ndash;&gt;-->
+<!--                            &lt;!&ndash;android:layout_centerVertical="true"&ndash;&gt;-->
+<!--                            &lt;!&ndash;android:background="@color/colorMain"&ndash;&gt;-->
+<!--                            &lt;!&ndash;android:src="@drawable/path45323x" />&ndash;&gt;-->
+<!--                            &lt;!&ndash;<ImageView&ndash;&gt;-->
+<!--                            &lt;!&ndash;android:visibility="gone"&ndash;&gt;-->
+<!--                            &lt;!&ndash;android:paddingVertical="10dp"&ndash;&gt;-->
+<!--                            &lt;!&ndash;android:layout_width="@dimen/_60sdp"&ndash;&gt;-->
+<!--                            &lt;!&ndash;android:layout_height="40dp"&ndash;&gt;-->
+<!--                            &lt;!&ndash;android:layout_centerHorizontal="true"&ndash;&gt;-->
+<!--                            &lt;!&ndash;android:layout_centerVertical="true"&ndash;&gt;-->
+<!--                            &lt;!&ndash;android:background="@color/colorMain"&ndash;&gt;-->
+<!--                            &lt;!&ndash;android:src="@drawable/group2233x" />&ndash;&gt;-->
+<!--                            <CheckBox-->
+<!--                                android:background="@color/colorWhite"-->
+<!--                                android:layout_width="wrap_content"-->
+<!--                                android:layout_height="wrap_content"-->
+<!--                                android:layout_centerHorizontal="true"-->
+<!--                                android:layout_centerVertical="true" />-->
+<!--                        </RelativeLayout>-->
+
+<!--                        <View-->
+<!--                            android:layout_width="0.5dp"-->
+<!--                            android:layout_height="match_parent"-->
+<!--                            android:background="@color/colorBackground" />-->
+
+<!--                        <TextView-->
+<!--                            android:layout_width="@dimen/_200sdp"-->
+<!--                            android:layout_height="wrap_content"-->
+<!--                            android:background="@color/colorMain"-->
+<!--                            android:gravity="center"-->
+<!--                            android:padding="@dimen/_10sdp"-->
+<!--                            android:text="TÊN PHÒNG BAN"-->
+<!--                            android:textColor="@color/colorWhite" />-->
+
+<!--                        <View-->
+<!--                            android:layout_width="0.5dp"-->
+<!--                            android:layout_height="match_parent"-->
+<!--                            android:background="@color/colorBackground" />-->
+
+<!--                        <TextView-->
+<!--                            android:layout_width="@dimen/_200sdp"-->
+<!--                            android:layout_height="wrap_content"-->
+<!--                            android:layout_gravity="center"-->
+<!--                            android:background="@color/colorMain"-->
+<!--                            android:gravity="center"-->
+<!--                            android:padding="@dimen/_10sdp"-->
+<!--                            android:text="NGƯỜI NHẬN"-->
+<!--                            android:textColor="@color/colorWhite" />-->
+
+<!--                        <View-->
+<!--                            android:layout_width="0.5dp"-->
+<!--                            android:layout_height="match_parent"-->
+<!--                            android:background="@color/colorBackground" />-->
+<!--                    </LinearLayout>-->
+
+<!--                    <android.support.v7.widget.RecyclerView-->
+<!--                        android:id="@+id/rvSoanBaoCao"-->
+<!--                        android:layout_width="match_parent"-->
+<!--                        android:layout_height="wrap_content"-->
+<!--                        android:background="@color/colorWhite" />-->
+<!--                </LinearLayout>-->
+<!--            </HorizontalScrollView>-->
+
+<!--            <Button-->
+<!--                android:layout_width="wrap_content"-->
+<!--                android:layout_height="40dp"-->
+<!--                android:layout_gravity="center"-->
+<!--                android:layout_marginVertical="@dimen/_30sdp"-->
+<!--                android:background="@drawable/duyet"-->
+<!--                android:paddingHorizontal="@dimen/_30sdp"-->
+<!--                android:text="Thêm mới"-->
+<!--                android:textColor="@color/colorWhite" />-->
+<!--        </LinearLayout>-->
+<!--    </ScrollView>-->
+</LinearLayout>

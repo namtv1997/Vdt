@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "536458591607",
+    "firebase_url": "https://vanphongdientu-f1f36.firebaseio.com",
+    "project_id": "vanphongdientu-f1f36",
+    "storage_bucket": "vanphongdientu-f1f36.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:536458591607:android:fd9b57599367f2d7b13572",
+        "android_client_info": {
+          "package_name": "com.vpdt.vpdt"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "536458591607-04t28bat7om5eendsu89r794ts8qemhk.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC6aWlyRZ2AJNiNsQ6yYDo0QXJyQJLjcII"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "536458591607-04t28bat7om5eendsu89r794ts8qemhk.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "536458591607-b3u7c77cdqog0co8aqifto2gf8ogmnhm.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.vpmedia.vpdtnew2019"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

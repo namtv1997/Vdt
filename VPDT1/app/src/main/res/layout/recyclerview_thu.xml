@@ -1,0 +1,189 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginBottom="10dp"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/tvThu_Ngay"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginHorizontal="15dp"
+            android:background="@drawable/duyet"
+            android:gravity="left"
+            android:paddingVertical="10dp"
+            android:paddingLeft="10dp"
+            android:paddingRight="5dp"
+            android:text="Thứ 2 - 10/06/2019"
+            android:textColor="@color/colorWhite" />
+
+        <ImageView
+            android:id="@+id/imDownThongTinVanBan"
+            android:layout_centerVertical="true"
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="25dp"
+            android:src="@drawable/down" />
+
+        <ImageView
+            android:id="@+id/imUpThongTinVanBan"
+            android:layout_centerVertical="true"
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="25dp"
+            android:src="@drawable/up1"
+            android:visibility="gone" />
+    </RelativeLayout>
+
+    <HorizontalScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:id="@+id/lnThu_Ngay"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="15dp"
+            android:layout_marginTop="10dp"
+            android:orientation="vertical"
+            android:visibility="gone">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="@dimen/_150sdp"
+                    android:layout_height="wrap_content"
+                    android:background="@color/colorMain"
+                    android:gravity="center"
+                    android:padding="@dimen/_10sdp"
+                    android:text="THỜI GIAN"
+                    android:textColor="@color/colorWhite"
+                    android:textStyle="bold" />
+
+                <View
+                    android:layout_width="0.5dp"
+                    android:layout_height="match_parent"
+                    android:background="@color/colorBlack" />
+
+                <TextView
+                    android:layout_width="@dimen/_300sdp"
+                    android:layout_height="wrap_content"
+                    android:background="@color/colorMain"
+                    android:gravity="center"
+                    android:padding="@dimen/_10sdp"
+                    android:text="NỘI DUNG GIẤY MỜI"
+                    android:textColor="@color/colorWhite"
+                    android:textStyle="bold" />
+
+                <View
+                    android:layout_width="0.5dp"
+                    android:layout_height="match_parent"
+                    android:background="@color/colorBlack" />
+
+                <TextView
+                    android:layout_width="@dimen/_250sdp"
+                    android:layout_height="wrap_content"
+                    android:background="@color/colorMain"
+                    android:gravity="center"
+                    android:padding="@dimen/_10sdp"
+                    android:text="LÃNH ĐẠO DỰ HỌP"
+                    android:textColor="@color/colorWhite"
+                    android:textStyle="bold" />
+
+                <View
+                    android:layout_width="0.5dp"
+                    android:layout_height="match_parent"
+                    android:background="@color/colorBlack" />
+
+                <TextView
+                    android:layout_width="@dimen/_280sdp"
+                    android:layout_height="wrap_content"
+                    android:background="@color/colorMain"
+                    android:gravity="center"
+                    android:padding="@dimen/_10sdp"
+                    android:text="CHỈ ĐẠO TRƯỚC CUỘC HỌP"
+                    android:textColor="@color/colorWhite"
+                    android:textStyle="bold" />
+
+                <View
+                    android:layout_width="0.5dp"
+                    android:layout_height="match_parent"
+                    android:background="@color/colorBlack" />
+
+                <TextView
+                    android:layout_width="@dimen/_250sdp"
+                    android:layout_height="wrap_content"
+                    android:background="@color/colorMain"
+                    android:gravity="center"
+                    android:padding="@dimen/_10sdp"
+                    android:text="BÁO CÁO PHỤC VỤ HỌP"
+                    android:textColor="@color/colorWhite"
+                    android:textStyle="bold" />
+
+                <View
+                    android:layout_width="0.5dp"
+                    android:layout_height="match_parent"
+                    android:background="@color/colorBlack" />
+
+                <TextView
+                    android:layout_width="@dimen/_200sdp"
+                    android:layout_height="wrap_content"
+                    android:background="@color/colorMain"
+                    android:gravity="center"
+                    android:padding="@dimen/_10sdp"
+                    android:text="SOẠN BÁO CÁO"
+                    android:textColor="@color/colorWhite"
+                    android:textStyle="bold" />
+
+                <View
+                    android:layout_width="0.5dp"
+                    android:layout_height="match_parent"
+                    android:background="@color/colorBlack" />
+
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#D8D8D8"
+                android:padding="10dp"
+                android:text="SÁNG"
+                android:textColor="@color/colorMain" />
+
+            <android.support.v7.widget.RecyclerView
+                android:id="@+id/rcvSang"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+            </android.support.v7.widget.RecyclerView>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#D8D8D8"
+                android:padding="10dp"
+                android:text="CHIỀU"
+                android:textColor="@color/colorMain" />
+
+            <android.support.v7.widget.RecyclerView
+                android:id="@+id/rcvChieu"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+            </android.support.v7.widget.RecyclerView>
+        </LinearLayout>
+    </HorizontalScrollView>
+
+</LinearLayout>

@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/lnListItem"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="wrap_content"
+    android:background="@drawable/round3"
+    android:gravity="center">
+
+    <TextView
+        android:paddingVertical="@dimen/_10sdp"
+        android:gravity="center"
+        android:id="@+id/btnTatCa"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="-- Tất cả --"
+        android:textColor="@color/colorMain" />
+
+    <View
+        android:layout_marginHorizontal="@dimen/_20sdp"
+        android:layout_width="match_parent"
+        android:layout_height="0.5dp"
+        android:background="@color/grey" />
+
+    <TextView
+        android:paddingVertical="@dimen/_10sdp"
+        android:gravity="center"
+        android:id="@+id/btnVanbanMoiNhap"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Văn bản mới nhập"
+        android:textColor="@color/colorMain" />
+
+    <View
+        android:layout_marginHorizontal="@dimen/_20sdp"
+        android:layout_width="match_parent"
+        android:layout_height="0.5dp"
+        android:background="@color/grey" />
+
+    <TextView
+        android:paddingVertical="@dimen/_10sdp"
+        android:gravity="center"
+        android:id="@+id/btnDaGiaiQuyet"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Đã giải quyết"
+        android:textColor="@color/colorMain" />
+</LinearLayout>

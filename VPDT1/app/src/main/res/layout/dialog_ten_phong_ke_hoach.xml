@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:background="@drawable/round3">
+
+    <TextView
+        android:id="@+id/tvChonPhong"
+        android:gravity="center"
+        android:textColor="@color/colorMain"
+        android:paddingVertical="13dp"
+        android:text="-- Chọn phòng, đơn vị --"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <View
+        android:layout_marginHorizontal="40dp"
+        android:layout_width="match_parent"
+        android:layout_height="0.5dp"
+        android:background="@color/colorBlack" />
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/rcTenPhongKeHoach"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+</LinearLayout>

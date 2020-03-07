@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/round2"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="15dp"
+        android:layout_marginTop="20dp"
+        android:text="Đề xuất của phòng"
+        android:textColor="@color/colorMain" />
+
+    <org.sufficientlysecure.htmltextview.HtmlTextView
+        android:id="@+id/tvDeXuatCuaPhong"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="15dp"
+        android:layout_marginTop="10dp"
+        android:textColor="@color/colorBlack" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="15dp"
+        android:layout_marginTop="15dp"
+        android:text="Kết luận cuộc họp"
+        android:textColor="@color/colorMain" />
+
+    <org.sufficientlysecure.htmltextview.HtmlTextView
+        android:id="@+id/tvKetLuanCuocHop"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="15dp"
+        android:layout_marginTop="10dp"
+        android:textColor="@color/colorBlack" />
+
+    <TextView
+        android:id="@+id/tvFileBaoCao"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="15dp"
+        android:layout_marginTop="10dp"
+        android:text="[Xem báo cáo]"
+        android:textColor="@color/colorCyan" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="15dp"
+        android:layout_marginTop="15dp"
+        android:text="Ý kiến giám đốc"
+        android:textColor="@color/colorMain" />
+
+    <TextView
+        android:id="@+id/tvYKienGiamDoc"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="15dp"
+        android:layout_marginTop="10dp"
+        android:textColor="@color/colorBlack" />
+
+    <Button
+        android:id="@+id/btnDong"
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+        android:layout_gravity="right"
+        android:layout_marginHorizontal="15dp"
+        android:layout_marginVertical="25dp"
+        android:background="@drawable/duyet"
+        android:paddingHorizontal="40dp"
+        android:text="Đóng"
+        android:textColor="@color/colorWhite" />
+</LinearLayout>

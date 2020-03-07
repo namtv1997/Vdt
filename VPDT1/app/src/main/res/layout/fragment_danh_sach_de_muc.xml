@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorBackground"
+    android:orientation="vertical">
+
+    <FrameLayout
+        android:id="@+id/fl"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="160dp"
+                android:layout_marginTop="1dp"
+                android:background="@drawable/group1503x">
+
+                <Button
+                    android:id="@+id/btnNamLamViec"
+                    android:layout_width="wrap_content"
+                    android:layout_height="40dp"
+                    android:layout_alignParentRight="true"
+                    android:layout_marginTop="35dp"
+                    android:layout_marginRight="20dp"
+                    android:background="@drawable/chonnam"
+                    android:paddingLeft="20dp"
+                    android:paddingRight="50dp"
+                    android:text="Năm làm việc:"
+                    android:textColor="@color/colorWhite"
+                    android:textSize="13dp" />
+
+                <Button
+                    android:layout_width="20dp"
+                    android:layout_height="20dp"
+                    android:layout_alignParentRight="true"
+                    android:layout_marginTop="45dp"
+                    android:layout_marginRight="40dp"
+                    android:background="@drawable/lichwhite3x" />
+
+                <Button
+                    android:id="@+id/btnHome"
+                    android:layout_width="48dp"
+                    android:layout_height="46dp"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginTop="33dp"
+                    android:background="@drawable/group863x"
+                    android:onClick="onViewClicked" />
+
+            </RelativeLayout>
+
+            <android.support.v7.widget.RecyclerView
+                android:id="@+id/rcvDanhSachDeMuc"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginHorizontal="10dp"
+                android:layout_marginTop="100dp"
+                android:layout_marginBottom="10dp"
+                android:background="@drawable/btnmain"
+                android:paddingVertical="15dp" />
+        </RelativeLayout>
+    </FrameLayout>
+
+</LinearLayout>

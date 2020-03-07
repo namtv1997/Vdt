@@ -1,0 +1,754 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/vKHKQCTT"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorBackground"
+    android:orientation="vertical">
+
+    <android.support.design.widget.AppBarLayout
+        android:layout_width="match_parent"
+        android:layout_height="160dp"
+        android:layout_marginTop="1dp"
+        android:background="@drawable/group1503x">
+
+        <RelativeLayout
+            android:id="@+id/rlXKHCTT"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <Button
+                android:id="@+id/btnBack"
+                android:layout_width="48dp"
+                android:layout_height="46dp"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="35dp"
+                android:background="@drawable/back" />
+
+            <Button
+                android:id="@+id/btnHome"
+                android:layout_width="48dp"
+                android:layout_height="46dp"
+                android:layout_marginLeft="80dp"
+                android:layout_marginTop="35dp"
+                android:background="@drawable/group863x" />
+
+            <Button
+                android:id="@+id/btnNamLamViec"
+                android:layout_width="wrap_content"
+                android:layout_height="40dp"
+                android:layout_alignParentRight="true"
+                android:layout_marginTop="38dp"
+                android:layout_marginRight="15dp"
+                android:background="@drawable/chonnam"
+                android:paddingLeft="20dp"
+                android:paddingRight="50dp"
+                android:text="Năm làm việc:  2019"
+                android:textColor="@color/colorWhite"
+                android:textSize="13dp" />
+
+            <Button
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                android:layout_alignParentRight="true"
+                android:layout_marginTop="48dp"
+                android:layout_marginRight="33dp"
+                android:background="@drawable/lichwhite3x" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="20dp"
+                android:layout_marginTop="105dp"
+                android:text="NHẬN XÉT, CHẤM ĐIỂM CÔNG VIỆC TUẦN CỦA CẤP DƯỚI"
+                android:textColor="#FFFFFF" />
+
+        </RelativeLayout>
+    </android.support.design.widget.AppBarLayout>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginVertical="15dp">
+
+                <TextView
+                    android:id="@+id/tvTuan"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginHorizontal="15dp"
+                    android:background="@drawable/round4"
+                    android:hint="-- Chọn tuần --"
+                    android:paddingVertical="10dp"
+                    android:paddingLeft="15dp"
+                    android:paddingRight="50dp"
+                    android:textColor="@color/colorBlack"
+                    android:textSize="16dp" />
+
+                <ImageView
+                    android:id="@+id/imDownThongTinVanBan"
+                    android:layout_width="20dp"
+                    android:layout_height="20dp"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true"
+                    android:layout_marginRight="30dp"
+                    android:src="@drawable/downsmoke" />
+
+            </RelativeLayout>
+
+            <HorizontalScrollView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal">
+
+                        <TextView
+                            android:layout_width="@dimen/_60sdp"
+                            android:layout_height="match_parent"
+                            android:background="@color/colorMain"
+                            android:gravity="center"
+                            android:padding="@dimen/_10sdp"
+                            android:text="STT"
+                            android:textColor="@color/colorWhite" />
+
+                        <View
+                            android:layout_width="0.5dp"
+                            android:layout_height="match_parent"
+                            android:background="@color/colorBlack" />
+
+                        <TextView
+                            android:layout_width="@dimen/_250sdp"
+                            android:layout_height="match_parent"
+                            android:background="@color/colorMain"
+                            android:gravity="center"
+                            android:padding="@dimen/_10sdp"
+                            android:text="CÁN BỘ"
+                            android:textColor="@color/colorWhite" />
+
+                        <View
+                            android:layout_width="0.5dp"
+                            android:layout_height="match_parent"
+                            android:background="@color/colorBlack" />
+
+                        <TextView
+                            android:layout_width="@dimen/_100sdp"
+                            android:layout_height="match_parent"
+                            android:background="@color/colorMain"
+                            android:gravity="center"
+                            android:padding="@dimen/_10sdp"
+                            android:text="VĂN PHÒNG ĐIỆN TỬ - TỐI ĐA 60 ĐIỂM"
+                            android:textColor="@color/colorWhite" />
+
+                        <View
+                            android:layout_width="0.5dp"
+                            android:layout_height="match_parent"
+                            android:background="@color/colorBlack" />
+
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:orientation="vertical">
+
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:background="@color/colorMain"
+                                android:gravity="center"
+                                android:padding="@dimen/_10sdp"
+                                android:text="Ý THỨC TỔ CHỨC KỶ LUẬT - TỐI ĐA 20 ĐIỂM"
+                                android:textColor="@color/colorWhite" />
+
+                            <View
+                                android:layout_width="match_parent"
+                                android:layout_height="0.5dp"
+                                android:background="@color/colorBlack" />
+
+                            <LinearLayout
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:orientation="horizontal">
+
+                                <TextView
+                                    android:layout_width="@dimen/_100sdp"
+                                    android:layout_height="match_parent"
+                                    android:background="@color/colorMain"
+                                    android:gravity="center"
+                                    android:padding="@dimen/_10sdp"
+                                    android:text="TỔNG ĐIỂM"
+                                    android:textColor="@color/colorWhite" />
+
+                                <View
+                                    android:layout_width="0.5dp"
+                                    android:layout_height="match_parent"
+                                    android:background="@color/colorBlack" />
+
+                                <TextView
+                                    android:layout_width="@dimen/_150sdp"
+                                    android:layout_height="wrap_content"
+                                    android:background="@color/colorMain"
+                                    android:gravity="center"
+                                    android:padding="@dimen/_10sdp"
+                                    android:text="CHẤP HÀNH ĐƯỜNG LỐI, ..."
+                                    android:textColor="@color/colorWhite" />
+
+                                <View
+                                    android:layout_width="0.5dp"
+                                    android:layout_height="match_parent"
+                                    android:background="@color/colorBlack" />
+
+                                <TextView
+                                    android:layout_width="@dimen/_150sdp"
+                                    android:layout_height="wrap_content"
+                                    android:background="@color/colorMain"
+                                    android:gravity="center"
+                                    android:padding="@dimen/_10sdp"
+                                    android:text="KHÔNG HÁCH DỊCH, CỬA QUYỀN, ..."
+                                    android:textColor="@color/colorWhite" />
+
+                                <View
+                                    android:layout_width="0.5dp"
+                                    android:layout_height="match_parent"
+                                    android:background="@color/colorBlack" />
+
+
+                                <TextView
+                                    android:layout_width="@dimen/_150sdp"
+                                    android:layout_height="wrap_content"
+                                    android:background="@color/colorMain"
+                                    android:gravity="center"
+                                    android:padding="@dimen/_10sdp"
+                                    android:text="CÓ PHẨM CHẤT CHÍNH TRỊ, ĐẠO ĐỨC, ..."
+                                    android:textColor="@color/colorWhite" />
+
+                                <View
+                                    android:layout_width="0.5dp"
+                                    android:layout_height="match_parent"
+                                    android:background="@color/colorBlack" />
+
+                                <TextView
+                                    android:layout_width="@dimen/_150sdp"
+                                    android:layout_height="wrap_content"
+                                    android:background="@color/colorMain"
+                                    android:gravity="center"
+                                    android:padding="@dimen/_10sdp"
+                                    android:text="THỰC HIỆN VĂN HÓA NƠI CÔNG SỞ, ..."
+                                    android:textColor="@color/colorWhite" />
+
+                                <View
+                                    android:layout_width="0.5dp"
+                                    android:layout_height="match_parent"
+                                    android:background="@color/colorBlack" />
+
+                                <TextView
+                                    android:layout_width="@dimen/_150sdp"
+                                    android:layout_height="match_parent"
+                                    android:background="@color/colorMain"
+                                    android:gravity="center"
+                                    android:padding="@dimen/_10sdp"
+                                    android:text="XÂY DỰNG HÌNH ẢNH, ..."
+                                    android:textColor="@color/colorWhite" />
+
+                                <View
+                                    android:layout_width="0.5dp"
+                                    android:layout_height="match_parent"
+                                    android:background="@color/colorBlack" />
+
+                                <TextView
+                                    android:layout_width="@dimen/_150sdp"
+                                    android:layout_height="match_parent"
+                                    android:background="@color/colorMain"
+                                    android:gravity="center"
+                                    android:padding="@dimen/_10sdp"
+                                    android:text="SỬ DỤNG HIỆU QUẢ THỜI GIAN LÀM VIỆC, ..."
+                                    android:textColor="@color/colorWhite" />
+                            </LinearLayout>
+                        </LinearLayout>
+
+                        <View
+                            android:layout_width="0.5dp"
+                            android:layout_height="match_parent"
+                            android:background="@color/colorBlack" />
+
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:orientation="vertical">
+
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:background="@color/colorMain"
+                                android:gravity="center"
+                                android:padding="@dimen/_10sdp"
+                                android:text="NĂNG LỰC, KỸ NĂNG THỰC HIỆN NHIỆM VỤ - TỐI ĐA 10 ĐIỂM"
+                                android:textColor="@color/colorWhite" />
+
+                            <View
+                                android:layout_width="match_parent"
+                                android:layout_height="0.5dp"
+                                android:background="@color/colorBlack" />
+
+                            <LinearLayout
+                                android:layout_width="wrap_content"
+                                android:layout_height="match_parent"
+                                android:orientation="horizontal">
+
+                                <TextView
+                                    android:layout_width="@dimen/_100sdp"
+                                    android:layout_height="match_parent"
+                                    android:background="@color/colorMain"
+                                    android:gravity="center"
+                                    android:padding="@dimen/_10sdp"
+                                    android:text="TỔNG ĐIỂM"
+                                    android:textColor="@color/colorWhite" />
+
+                                <View
+                                    android:layout_width="0.5dp"
+                                    android:layout_height="match_parent"
+                                    android:background="@color/colorBlack" />
+
+                                <TextView
+                                    android:layout_width="@dimen/_150sdp"
+                                    android:layout_height="wrap_content"
+                                    android:background="@color/colorMain"
+                                    android:gravity="center"
+                                    android:padding="@dimen/_10sdp"
+                                    android:text="THƯỜNG XUYÊN HỌC TẬP, RÈN LUYỆN, ..."
+                                    android:textColor="@color/colorWhite" />
+
+                                <View
+                                    android:layout_width="0.5dp"
+                                    android:layout_height="match_parent"
+                                    android:background="@color/colorBlack" />
+
+                                <TextView
+                                    android:layout_width="@dimen/_150sdp"
+                                    android:layout_height="wrap_content"
+                                    android:background="@color/colorMain"
+                                    android:gravity="center"
+                                    android:padding="@dimen/_10sdp"
+                                    android:text="XÂY DỰNG KẾ HOẠCH CÔNG TÁC TUẦN, ..."
+                                    android:textColor="@color/colorWhite" />
+
+                                <View
+                                    android:layout_width="0.5dp"
+                                    android:layout_height="match_parent"
+                                    android:background="@color/colorBlack" />
+
+                                <TextView
+                                    android:layout_width="@dimen/_150sdp"
+                                    android:layout_height="wrap_content"
+                                    android:background="@color/colorMain"
+                                    android:gravity="center"
+                                    android:padding="@dimen/_10sdp"
+                                    android:text="CHỈ ĐẠO, ĐIỀU HÀNH, KIỂM SOÁT, ..."
+                                    android:textColor="@color/colorWhite" />
+
+                                <View
+                                    android:layout_width="0.5dp"
+                                    android:layout_height="match_parent"
+                                    android:background="@color/colorBlack" />
+
+                                <TextView
+                                    android:layout_width="@dimen/_150sdp"
+                                    android:layout_height="wrap_content"
+                                    android:background="@color/colorMain"
+                                    android:gravity="center"
+                                    android:padding="@dimen/_10sdp"
+                                    android:text="KIỂM TRA, ĐÔN ĐỐC VIỆC THỰC HIỆN ..."
+                                    android:textColor="@color/colorWhite" />
+
+                                <View
+                                    android:layout_width="0.5dp"
+                                    android:layout_height="match_parent"
+                                    android:background="@color/colorBlack" />
+
+                                <TextView
+                                    android:layout_width="@dimen/_170sdp"
+                                    android:layout_height="wrap_content"
+                                    android:background="@color/colorMain"
+                                    android:gravity="center"
+                                    android:padding="@dimen/_10sdp"
+                                    android:text="CÓ NĂNG LỰC QUY TỤ, TẬP HỢP CÔNG CHỨC, ..."
+                                    android:textColor="@color/colorWhite" />
+
+                                <View
+                                    android:layout_width="0.5dp"
+                                    android:layout_height="match_parent"
+                                    android:background="@color/colorBlack" />
+
+                                <TextView
+                                    android:layout_width="@dimen/_150sdp"
+                                    android:layout_height="wrap_content"
+                                    android:background="@color/colorMain"
+                                    android:gravity="center"
+                                    android:padding="@dimen/_10sdp"
+                                    android:text="SỬ DỤNG THÀNH THẠO CÁC PHẦN MỀM, ..."
+                                    android:textColor="@color/colorWhite" />
+
+                                <View
+                                    android:layout_width="0.5dp"
+                                    android:layout_height="match_parent"
+                                    android:background="@color/colorBlack" />
+
+                                <TextView
+                                    android:layout_width="@dimen/_150sdp"
+                                    android:layout_height="wrap_content"
+                                    android:background="@color/colorMain"
+                                    android:gravity="center"
+                                    android:padding="@dimen/_10sdp"
+                                    android:text="THIẾT LẬP HỒ SƠ CÔNG VIỆC ĐẦY ĐỦ ..."
+                                    android:textColor="@color/colorWhite" />
+                            </LinearLayout>
+                        </LinearLayout>
+
+                        <View
+                            android:layout_width="0.5dp"
+                            android:layout_height="match_parent"
+                            android:background="@color/colorBlack" />
+
+                        <TextView
+                            android:layout_width="@dimen/_150sdp"
+                            android:layout_height="match_parent"
+                            android:background="@color/colorMain"
+                            android:gravity="center"
+                            android:padding="@dimen/_10sdp"
+                            android:text="ĐIỂM THƯỞNG - TỐI ĐA 10 ĐIỄM"
+                            android:textColor="@color/colorWhite" />
+                    </LinearLayout>
+
+                    <android.support.v7.widget.RecyclerView
+                        android:id="@+id/recyclerview"
+                        android:layout_width="match_parent"
+                        android:layout_height="@dimen/_300sdp" />
+
+                </LinearLayout>
+            </HorizontalScrollView>
+
+            <HorizontalScrollView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal">
+
+                        <TextView
+                            android:layout_width="@dimen/_60sdp"
+                            android:layout_height="match_parent"
+                            android:background="@color/colorMain"
+                            android:gravity="center"
+                            android:padding="@dimen/_10sdp"
+                            android:text="STT"
+                            android:textColor="@color/colorWhite" />
+
+                        <View
+                            android:layout_width="0.5dp"
+                            android:layout_height="match_parent"
+                            android:background="@color/colorBlack" />
+
+                        <TextView
+                            android:layout_width="@dimen/_250sdp"
+                            android:layout_height="match_parent"
+                            android:background="@color/colorMain"
+                            android:gravity="center"
+                            android:padding="@dimen/_10sdp"
+                            android:text="CÁN BỘ"
+                            android:textColor="@color/colorWhite" />
+
+                        <View
+                            android:layout_width="0.5dp"
+                            android:layout_height="match_parent"
+                            android:background="@color/colorBlack" />
+
+                        <TextView
+                            android:layout_width="@dimen/_100sdp"
+                            android:layout_height="match_parent"
+                            android:background="@color/colorMain"
+                            android:gravity="center"
+                            android:padding="@dimen/_10sdp"
+                            android:text="VĂN PHÒNG ĐIỆN TỬ - TỐI ĐA 60 ĐIỂM"
+                            android:textColor="@color/colorWhite" />
+
+                        <View
+                            android:layout_width="0.5dp"
+                            android:layout_height="match_parent"
+                            android:background="@color/colorBlack" />
+
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:orientation="vertical">
+
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:background="@color/colorMain"
+                                android:gravity="center"
+                                android:padding="@dimen/_10sdp"
+                                android:text="Ý THỨC TỔ CHỨC KỶ LUẬT - TỐI ĐA 20 ĐIỂM"
+                                android:textColor="@color/colorWhite" />
+
+                            <View
+                                android:layout_width="match_parent"
+                                android:layout_height="0.5dp"
+                                android:background="@color/colorBlack" />
+
+                            <LinearLayout
+                                android:layout_width="wrap_content"
+                                android:layout_height="match_parent"
+                                android:orientation="horizontal">
+
+                                <TextView
+                                    android:layout_width="@dimen/_100sdp"
+                                    android:layout_height="match_parent"
+                                    android:background="@color/colorMain"
+                                    android:gravity="center"
+                                    android:padding="@dimen/_10sdp"
+                                    android:text="TỔNG ĐIỂM"
+                                    android:textColor="@color/colorWhite" />
+
+                                <View
+                                    android:layout_width="0.5dp"
+                                    android:layout_height="match_parent"
+                                    android:background="@color/colorBlack" />
+
+                                <TextView
+                                    android:layout_width="@dimen/_150sdp"
+                                    android:layout_height="match_parent"
+                                    android:background="@color/colorMain"
+                                    android:gravity="center"
+                                    android:padding="@dimen/_10sdp"
+                                    android:text="CHẤP HÀNH TỐT CHỦ TRƯƠNG, ..."
+                                    android:textColor="@color/colorWhite" />
+
+                                <View
+                                    android:layout_width="0.5dp"
+                                    android:layout_height="match_parent"
+                                    android:background="@color/colorBlack" />
+
+                                <TextView
+                                    android:layout_width="@dimen/_150sdp"
+                                    android:layout_height="wrap_content"
+                                    android:background="@color/colorMain"
+                                    android:gravity="center"
+                                    android:padding="@dimen/_10sdp"
+                                    android:text="KHÔNG HÁCH DỊCH, CỬA QUYỀN, ..."
+                                    android:textColor="@color/colorWhite" />
+
+                                <View
+                                    android:layout_width="0.5dp"
+                                    android:layout_height="match_parent"
+                                    android:background="@color/colorBlack" />
+
+
+                                <TextView
+                                    android:layout_width="@dimen/_150sdp"
+                                    android:layout_height="wrap_content"
+                                    android:background="@color/colorMain"
+                                    android:gravity="center"
+                                    android:padding="@dimen/_10sdp"
+                                    android:text="CÓ PHẨM CHẤT CHÍNH TRỊ, ĐẠO ĐỨC, ..."
+                                    android:textColor="@color/colorWhite" />
+
+                                <View
+                                    android:layout_width="0.5dp"
+                                    android:layout_height="match_parent"
+                                    android:background="@color/colorBlack" />
+
+                                <TextView
+                                    android:layout_width="@dimen/_150sdp"
+                                    android:layout_height="wrap_content"
+                                    android:background="@color/colorMain"
+                                    android:gravity="center"
+                                    android:padding="@dimen/_10sdp"
+                                    android:text="THỰC HIỆN VĂN HÓA NƠI CÔNG SỞ, ..."
+                                    android:textColor="@color/colorWhite" />
+
+                                <View
+                                    android:layout_width="0.5dp"
+                                    android:layout_height="match_parent"
+                                    android:background="@color/colorBlack" />
+
+                                <TextView
+                                    android:layout_width="@dimen/_150sdp"
+                                    android:layout_height="wrap_content"
+                                    android:background="@color/colorMain"
+                                    android:gravity="center"
+                                    android:padding="@dimen/_10sdp"
+                                    android:text="XÂY DỰNG HÌNH ẢNH, GIỮ GÌN UY TÍN ..."
+                                    android:textColor="@color/colorWhite" />
+
+                                <View
+                                    android:layout_width="0.5dp"
+                                    android:layout_height="match_parent"
+                                    android:background="@color/colorBlack" />
+
+                                <TextView
+                                    android:layout_width="@dimen/_150sdp"
+                                    android:layout_height="wrap_content"
+                                    android:background="@color/colorMain"
+                                    android:gravity="center"
+                                    android:padding="@dimen/_10sdp"
+                                    android:text="SỬ DỤNG HIỆU QUẢ THỜI GIAN LÀM VIỆC, ..."
+                                    android:textColor="@color/colorWhite" />
+                            </LinearLayout>
+                        </LinearLayout>
+
+                        <View
+                            android:layout_width="0.5dp"
+                            android:layout_height="match_parent"
+                            android:background="@color/colorBlack" />
+
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:orientation="vertical">
+
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:background="@color/colorMain"
+                                android:gravity="center"
+                                android:padding="@dimen/_10sdp"
+                                android:text="NĂNG LỰC, KỸ NĂNG THỰC HIỆN NHIỆM VỤ - TỐI ĐA 10 ĐIỂM"
+                                android:textColor="@color/colorWhite" />
+
+                            <View
+                                android:layout_width="match_parent"
+                                android:layout_height="0.5dp"
+                                android:background="@color/colorBlack" />
+
+                            <LinearLayout
+                                android:layout_width="wrap_content"
+                                android:layout_height="match_parent"
+                                android:orientation="horizontal">
+
+                                <TextView
+                                    android:layout_width="@dimen/_100sdp"
+                                    android:layout_height="match_parent"
+                                    android:background="@color/colorMain"
+                                    android:gravity="center"
+                                    android:padding="@dimen/_10sdp"
+                                    android:text="TỔNG ĐIỂM"
+                                    android:textColor="@color/colorWhite" />
+
+                                <View
+                                    android:layout_width="0.5dp"
+                                    android:layout_height="match_parent"
+                                    android:background="@color/colorBlack" />
+
+                                <TextView
+                                    android:layout_width="@dimen/_150sdp"
+                                    android:layout_height="wrap_content"
+                                    android:background="@color/colorMain"
+                                    android:gravity="center"
+                                    android:padding="@dimen/_10sdp"
+                                    android:text="THƯỜNG XUYÊN HỌC TẬP, RÈN LUYỆN, ..."
+                                    android:textColor="@color/colorWhite" />
+
+                                <View
+                                    android:layout_width="0.5dp"
+                                    android:layout_height="match_parent"
+                                    android:background="@color/colorBlack" />
+
+                                <TextView
+                                    android:layout_width="@dimen/_200sdp"
+                                    android:layout_height="wrap_content"
+                                    android:background="@color/colorMain"
+                                    android:gravity="center"
+                                    android:padding="@dimen/_10sdp"
+                                    android:text="THAM GIA XÂY DỰNG KẾ HOẠCH CÔNG TÁC CỦA ĐƠN VỊ, ..."
+                                    android:textColor="@color/colorWhite" />
+
+                                <View
+                                    android:layout_width="0.5dp"
+                                    android:layout_height="match_parent"
+                                    android:background="@color/colorBlack" />
+
+                                <TextView
+                                    android:layout_width="@dimen/_190sdp"
+                                    android:layout_height="wrap_content"
+                                    android:background="@color/colorMain"
+                                    android:gravity="center"
+                                    android:padding="@dimen/_10sdp"
+                                    android:text="CHỦ ĐỘNG TRIỂN KHAI THỰC HIỆN NHIỆM VỤ, CÔNG VIỆC, ..."
+                                    android:textColor="@color/colorWhite" />
+
+                                <View
+                                    android:layout_width="0.5dp"
+                                    android:layout_height="match_parent"
+                                    android:background="@color/colorBlack" />
+
+                                <TextView
+                                    android:layout_width="@dimen/_150sdp"
+                                    android:layout_height="wrap_content"
+                                    android:background="@color/colorMain"
+                                    android:gravity="center"
+                                    android:padding="@dimen/_10sdp"
+                                    android:text="SỬ DỤNG THÀNH THẠO CÁC PHẦN MỀM, ..."
+                                    android:textColor="@color/colorWhite" />
+
+                                <View
+                                    android:layout_width="0.5dp"
+                                    android:layout_height="match_parent"
+                                    android:background="@color/colorBlack" />
+
+                                <TextView
+                                    android:layout_width="@dimen/_190sdp"
+                                    android:layout_height="wrap_content"
+                                    android:background="@color/colorMain"
+                                    android:gravity="center"
+                                    android:padding="@dimen/_10sdp"
+                                    android:text="THIẾT LẬP HỒ SƠ CÔNG VIỆC ĐẦY ĐỦ THEO CÁC ĐẦU MỤC..."
+                                    android:textColor="@color/colorWhite" />
+                            </LinearLayout>
+                        </LinearLayout>
+
+                        <View
+                            android:layout_width="0.5dp"
+                            android:layout_height="match_parent"
+                            android:background="@color/colorBlack" />
+
+                        <TextView
+                            android:layout_width="@dimen/_150sdp"
+                            android:layout_height="match_parent"
+                            android:background="@color/colorMain"
+                            android:gravity="center"
+                            android:padding="@dimen/_10sdp"
+                            android:text="ĐIỂM THƯỞNG - TỐI ĐA 10 ĐIỄM"
+                            android:textColor="@color/colorWhite" />
+                    </LinearLayout>
+
+                    <android.support.v7.widget.RecyclerView
+                        android:id="@+id/recyclerview1"
+                        android:layout_width="match_parent"
+                        android:layout_height="@dimen/_300sdp" />
+                </LinearLayout>
+            </HorizontalScrollView>
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

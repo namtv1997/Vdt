@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/round2"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="20dp"
+        android:layout_marginTop="20dp"
+        android:text="THÊM NỘI DUNG"
+        android:textColor="@color/colorMain"
+        android:textStyle="bold" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0.3dp"
+        android:layout_marginVertical="15dp"
+        android:background="@color/colorBlack" />
+
+    <TextView
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="20dp"
+        android:text="Nhập nội dung"
+        android:textColor="@color/colorMain" />
+
+    <EditText
+        android:id="@+id/edtNhapNoiDung"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="20dp"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/sniper"
+        android:hint="Nhập nội dung ..."
+        android:padding="10dp"
+        android:textSize="13dp" />
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="20dp"
+        android:layout_marginTop="15dp"
+        android:text="Giờ họp"
+        android:textColor="@color/colorMain" />
+
+    <EditText
+        android:id="@+id/edtGioHop"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="20dp"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/sniper"
+        android:inputType="time"
+        android:hint="Nhập giờ nếu có ... Ví dụ: 10:00"
+        android:padding="10dp"
+        android:textSize="13dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="20dp"
+        android:layout_marginTop="15dp"
+        android:text="Ngày họp"
+        android:textColor="@color/colorMain" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/tvNgayThangNam"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="15dp"
+            android:background="@drawable/sniper"
+            android:hint="dd/mm/yyyy"
+            android:paddingVertical="13dp"
+            android:paddingLeft="15dp"
+            android:paddingRight="50dp"
+            android:textColor="@color/colorBlack" />
+
+        <ImageView
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:layout_alignParentRight="true"
+            android:layout_marginTop="13dp"
+            android:layout_marginRight="25dp"
+            android:src="@drawable/lich3x" />
+    </RelativeLayout>
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="20dp"
+        android:layout_marginTop="15dp"
+        android:text="Địa điểm"
+        android:textColor="@color/colorMain" />
+
+    <EditText
+        android:id="@+id/edtDiaDiem"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="20dp"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/sniper"
+        android:hint="Nhập địa điểm nếu có ..."
+        android:padding="10dp"
+        android:textSize="13dp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/btnDong"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_marginHorizontal="20dp"
+            android:layout_marginVertical="20dp"
+            android:layout_weight="1.5"
+            android:background="@drawable/btndong"
+            android:text="Đóng"
+            android:textColor="@color/colorRed" />
+
+        <Button
+            android:id="@+id/btnNoiDung"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_marginHorizontal="20dp"
+            android:layout_marginVertical="20dp"
+            android:layout_weight="1"
+            android:background="@drawable/dangnhap"
+            android:text="Thêm nội dung"
+            android:textColor="@color/colorWhite" />
+    </LinearLayout>
+</LinearLayout>

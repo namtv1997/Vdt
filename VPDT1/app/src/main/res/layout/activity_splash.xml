@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/group148"
+    tools:context=".ui.activity.SplashActivity">
+
+    <TextView
+        android:layout_centerHorizontal="true"
+        android:id="@+id/tvSoTaiChinh"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="SỞ TÀI CHÍNH THÀNH PHỐ HÀ NỘI"
+        android:textColor="@color/colorWhite"
+        android:textSize="@dimen/_14sdp"
+        android:layout_marginTop="@dimen/_135sdp" />
+
+    <TextView
+        android:layout_marginTop="@dimen/_165sdp"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/tvVanPhongDienTu"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="VĂN PHÒNG ĐIỆN TỬ"
+        android:textColor="#FFC201"
+        android:textSize="@dimen/_20sdp"
+        android:textStyle="bold" />
+
+    <ImageView
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true"
+        android:layout_width="@dimen/_100sdp"
+        android:layout_height="@dimen/_100sdp"
+        android:src="@drawable/logo" />
+
+</RelativeLayout>

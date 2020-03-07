@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/lnListItem"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:background="@drawable/round3">
+
+    <TextView
+        android:id="@+id/tvDaHoanThanh"
+        android:gravity="center"
+        android:textColor="@color/colorMain"
+        android:padding="@dimen/_10sdp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Đã Hoàn Thành" />
+
+    <View
+        android:layout_marginHorizontal="@dimen/_30sdp"
+        android:layout_width="match_parent"
+        android:layout_height="0.5dp"
+        android:background="@color/colorBlack" />
+
+    <TextView
+        android:id="@+id/tvChuaHoanThanh"
+        android:gravity="center"
+        android:textColor="@color/colorMain"
+        android:padding="@dimen/_10sdp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Chưa Hoàn Thành" />
+</LinearLayout>

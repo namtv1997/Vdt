@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/lnListItem"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:layout_height="wrap_content"
+    android:background="@drawable/round3">
+
+    <TextView
+        android:gravity="center"
+        android:padding="@dimen/_10sdp"
+        android:id="@+id/btnVanBanLanhDaoDaChiDao"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Văn bản lãnh đạo đã chỉ đạo"
+        android:textColor="@color/colorMain" />
+
+    <View
+        android:layout_marginHorizontal="@dimen/_30sdp"
+        android:layout_width="match_parent"
+        android:layout_height="0.5dp"
+        android:background="@color/grey" />
+
+    <TextView
+        android:gravity="center"
+        android:padding="@dimen/_10sdp"
+        android:id="@+id/btnVanBanSTCPhoiHopDaChiDao"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Văn Bản STC Phối Hợp đã chỉ đạo"
+        android:textColor="@color/colorMain" />
+</LinearLayout>

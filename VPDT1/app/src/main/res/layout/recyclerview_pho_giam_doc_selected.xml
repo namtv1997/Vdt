@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/round3"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/tvPhoGiamDoc"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="?attr/selectableItemBackground"
+        android:text="-- Chọn phó giám đốc --"
+        android:gravity="center"
+        android:padding="@dimen/_10sdp"
+        android:textColor="@color/colorMain" />
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/rvSelectPgD"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+</LinearLayout>
+
